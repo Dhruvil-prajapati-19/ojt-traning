@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fafafa;
+}
+
+h1 {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+.section {
+  width: 80%;
+  height: 300px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+
+.logo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  background-image: url("https://picsum.photos/id/237/100/100");
+  background-size: cover;
+  background-position: center;
+}

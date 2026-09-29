@@ -1,0 +1,21 @@
+main{
+    border: 5px solid black;
+    height: 800px;
+    /* width: 92%; */
+}
+
+/* box1 is header  */
+.box1{
+    border: 1px solid red;
+    background-color: red;
+    position: fixed;
+    top:0px;
+    width: 97.85%;
+} 
+
+
+.box2{
+    border: 1px solid rgb(8, 0, 255);
+    background-color: rgb(25, 0, 255);
+    height: 800px;
+}

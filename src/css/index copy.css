@@ -1,0 +1,138 @@
+/* header{
+    border: 1px solid black;
+    height: 400px;
+  
+    background-color: rgb(194, 252, 238);
+
+} */
+.iconll{
+    color: red;
+    height:40px;
+    width: 40px;
+    
+
+}
+.iconin{
+    color: red;
+    height:40px;
+    width: 40px;
+    
+
+}
+.ih{
+    color: rgb(117, 0, 152);
+    height:40px;
+    width: 40px;
+    
+
+}
+.il{
+    color: rgb(17, 61, 1);
+    height:40px;
+    width: 40px;
+    
+
+}
+
+.boxp{
+    border: 1px solid black;
+       height: 300px;
+       width: 200px;
+
+       /* padding: 20px; */
+       /* padding-left: 10px; */
+       /* margin: block 40px;  */
+       /* margin-inline-end: 100px; */
+}
+
+.boxc{
+    border: 1px solid orangered;
+    height: 100px;
+    width: 50px;
+    /* margin: 20px; */
+    /* margin-left: 20px; */
+    /* padding: 20px; */
+    /* margin: block 10px; */
+     margin-inline: auto;
+     
+
+}
+
+.boxc2{
+    border: 2px solid rgb(206, 41, 239);
+    /* margin: 20px; */
+    height: 100px;
+    width: 50px;
+    /* margin-block: 10px; */
+    /* margin-inline: 10px; */
+    /* margin: 10px 100px 90px 100px; */
+     margin-inline: auto;
+
+}
+main {
+    height: 800px;
+    width: 95%;
+    margin-left: 2%;
+    /* background-image: url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3"); */
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Best-HD-Backgrounds-Photos-Download.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.maid {
+    text-align: center;
+}
+
+button {
+    padding: 12px 30px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+
+header {
+    margin-left: 2%;
+    width: 95%;
+}
+
+.navbar {
+    background-color: #222;
+    padding: 15px 30px;
+}
+
+/* LEFT SIDE */
+.logo {
+    display: inline-block;
+    width: 30%;
+
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+
+    vertical-align: middle;
+}
+
+/* RIGHT SIDE */
+.menu {
+    display: inline-block;
+    width: 69%;
+
+    text-align: right;
+    vertical-align: middle;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+
+    margin-left: 25px;
+}
+
+.menu i {
+    margin-right: 5px;
+}
+
+.menu a:hover {
+    color: lightgreen;
+}

@@ -1,0 +1,83 @@
+*{
+    background-color: gray;
+
+}
+
+main {
+    height: 400px;
+    width: 95%;
+    margin-left: 2%;
+    background-size: cover;
+    background-position: center;
+    /* border: 1px solid black; */
+}
+
+header {
+    margin-left: 2%;
+    width: 95%;
+    height:fit-content; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+h3{
+    color: yellow;
+    justify-self: center;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #222;
+    padding: 15px 30px;
+    /* border: 1px solid red; */
+    margin-bottom: 5px;  
+    border-radius: 10px; 
+}
+
+
+/* RIGHT SIDE as aside */
+.menu {
+    background-color: #222;
+    width: 220px;
+    /* text-align: right; */
+    /* vertical-align: middle; */
+    border: 1px solid black;
+    position: absolute;
+    margin-left: 46.35%;
+    height: 43%;
+    border-radius: 10px;
+    text-align: center;
+margin-bottom: 1px;
+
+}
+
+.session{
+background-color: #222;
+width: 50%;
+height: 25%;
+position: relative;
+border-radius: 10px;
+margin-bottom: 1px;
+
+}
+
+.artical {
+    background-color: #222;
+
+/* border: 1px solid white; */
+width: 50%;
+height: 25%;
+position: relative;  
+border-radius: 10px;
+margin-bottom: 1px;
+
+/* padding-left: 10%;  */
+}
+
+.footer{
+background-color: #222;
+/* border: 1px solid white; */
+height: 25%;
+width: 99%;
+position: relative; 
+border-radius: 10px;  
+margin-top: 10px;
+}
