@@ -1,0 +1,55 @@
+/* Reset default margins and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between; /* Pushes logo to left, nav to right */
+    align-items: center;            /* Centers items vertically */
+    background-color: #0056b3;      /* A cleaner blue */
+    padding: 0 40px;                /* Padding on the sides */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo-container img {
+    height: 60px;                   /* Scales the logo nicely inside the header */
+    width: auto;
+    display: block;
+}
+
+nav {
+    height: 100%;
+}
+
+nav ul {
+    display: flex;
+    height: 100%;
+    list-style: none;               /* Removes bullet points */
+}
+
+nav li {
+    height: 100%;
+}
+
+nav a {
+    display: flex;
+    align-items: center;            /* Centers text vertically */
+    justify-content: center;        /* Centers text horizontally */
+    height: 100%;
+    padding: 0 20px;
+    color: white;
+    text-decoration: none;          /* Removes underline */
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the links */
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+}

@@ -1,0 +1,35 @@
+main{
+    /* border: 1px soild black; */
+    /* border: 1px solid black; */
+    /* height: 400px;
+    background-color: blue; */
+    /* background-image: url("/profile.png"); */
+    /* background-size: cover; */
+    /* background-size: contain; */
+   /* background-size: 50px 50px; */
+   /* background-repeat: no-repeat; */
+   /* background-repeat: repeat-y; */
+   /* background-position: top-left; */
+   /* background-position: right; */
+   /* background-position: center-right; */
+   /* background-position: center left; */
+   /* background-position: bottom left; */
+   /* background-position: bottom right; */
+   /* backdrop-filter:  blur(255 255 255);  */
+    
+    /* background-blend-mode: darken; */
+    /* background-position-y: top; */
+
+}
+/* h1{
+    color: white;
+} */
+
+div{
+    height: 800px;
+    /* width: 400px; */
+    border: 1px solid black;
+    background-image: url(/profile.png);
+    background-size: cover;
+    background-attachment: fixed;
+}

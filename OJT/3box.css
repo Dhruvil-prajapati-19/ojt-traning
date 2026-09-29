@@ -1,0 +1,43 @@
+main{
+    border: 1px solid black;
+    height: 600px;
+    display: flex;
+    /* flex-direction: row;  */
+
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+.box1{
+ border: 1px solid red;
+ height: 250px;
+ width: 200px;
+ /* background-image: url(/frontend/img/profile.png); */
+ /* background-size: contain ; */
+ /* background-repeat: no-repeat ; */
+ /* background-position: center; */
+}
+/* 
+.box2{
+ border: 1px solid red;
+ height: 250px;
+ width: 200px;
+ background-image: url(/frontend/img/settings.png);
+ background-size: contain ;
+ background-repeat: no-repeat ;
+ background-position: center;
+} */
+
+/* .box3{
+ height: 250px;
+ width: 200px;
+ border: 1px solid red;
+ background-image: url(/frontend/img/dumbbell.png);
+ background-size: contain ;
+ background-repeat: no-repeat ;
+ background-position: center;
+
+}
+ */
+

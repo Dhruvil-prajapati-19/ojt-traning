@@ -1,0 +1,29 @@
+main{
+    border: 1px solid blue;
+    height: 400px;
+    /* width: 70px; */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly; /* equal space all side left right and btn*/
+    /* align-items: center;  */
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
+    /* align-items: start; */
+    
+}
+
+
+.box1,.box2,.box3,.box4{
+    border: 1px solid red;
+    height: 200px;
+    width: 200px;
+
+
+}
+/* // fix the vetical from parent)main)child outside */
+
+
+
+
+
+/*nav bar*/

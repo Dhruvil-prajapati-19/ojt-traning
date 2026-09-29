@@ -1,0 +1,47 @@
+/* without ai and google  3 box  */
+
+header{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* background-color: blue; */
+    border: 1px solid black;
+    
+}
+
+div{
+height: 100%;
+width: 200px;
+/* background-color: aquamarine; */
+border: 1px solid black;
+    
+}
+
+nav{
+    height: 100%;
+    width: 200px;
+    /* background-color: blueviolet; */
+    flex-grow: 1;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+nav a{    
+    display: flex;
+    align-items: center;            /* Centers text vertically */
+    justify-content: center;        /* Centers text horizontally */
+    height: 100%;
+   /* background-color: yellow; */
+  padding-left: 35px;
+  padding-right: 10px;
+
+}
+
+
+ul{
+    
+    display: flex;
+    /* padding-left: 10px; */
+    justify-self: end;
+}
+
